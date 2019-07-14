@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">five-sec-timer-challenge</string>
+
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="success">成功</string>
+    <string name="failed">失敗</string>
 </resources>

@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.stopButton.setOnClickListener {
             handler.removeCallbacks(runnable)
-            binding.resultText.text = if (time < 4.5 || time > 5.5) "失敗" else "成功"
+            binding.resultText.text = if (time < 4.5 || time > 5.5) getString(R.string.failed) else getString(R.string.success)
             binding.stopButton.visibility = View.GONE
             binding.startButton.visibility = View.VISIBLE
         }

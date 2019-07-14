@@ -33,7 +33,7 @@
                 app:layout_constraintTop_toBottomOf="@id/timer"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                android:text="START"
+                android:text="@string/start"
                 android:layout_marginTop="100dp"/>
 
         <Button
@@ -44,7 +44,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginTop="100dp"
-                android:text="STOP"
+                android:text="@string/stop"
                 android:visibility="gone"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
